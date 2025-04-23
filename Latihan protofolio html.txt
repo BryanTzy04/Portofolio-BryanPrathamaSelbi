@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Bryan Prathama Selbi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: #34495e;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+        .contact-info {
+            font-size: 16px;
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Halo, Saya Bryan Prathama Selbi!</h1>
+        <p>Mahasiswa & Karyawan di PT. Winner Sumbiri Knitting</p>
+    </header>
+
+    <section>
+        <div class="card">
+            <h2>Tentang Saya</h2>
+            <p>Nama saya Bryan Prathama Selbi, lahir pada 12 Desember 2004. Saya tinggal di Kabupaten Bogor, Desa Gunung Sindur. Saat ini, saya bekerja di PT. Winner Sumbiri Knitting sejak Agustus 2023 dan sedang berkuliah di Universitas Pamulang Viktor, jurusan Teknik Informatika, semester 5.</p>
+        </div>
+
+        <div class="card">
+            <h2>Proyek</h2>
+            <p>Berikut adalah proyek yang saya kerjakan. Saya akan mengganti kata-kata dan menambahkan gambar sesuai kebutuhan nanti.</p>
+            <img src="path_to_your_image.jpg" alt="Proyek 1">
+            <p>Deskripsi proyek yang sedang atau sudah dikerjakan.</p>
+        </div>
+
+        <div class="card">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Programming Standar</li>
+                <li>Editing Video</li>
+                <li>Microsoft Office</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contact-info">
+            <p>WhatsApp: <a href="tel:+6281299083093">0812-9908-3093</a></p>
+            <p>Instagram: <a href="https://instagram.com/bryanprathama.s" target="_blank">@bryanprathama.s</a></p>
+        </div>
+    </footer>
+</body>
+</html>
